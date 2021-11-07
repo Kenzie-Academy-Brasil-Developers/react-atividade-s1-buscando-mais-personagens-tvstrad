@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  background-color: darkgrey;
+  background-image: url(./images/teahub.io-rick-and-morty-wallpaper-123959.png);
+  background-size: cover;
+}
+.App h1 {
+  border: none;
+  margin: 0;
+  padding: 1em;
+  font-family: RickandMorty;
+  color: aquamarine;
+  font-size: 3em;
+}
+.btnContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+}
+.btn {
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 12px;
+  background-color: #4caf50;
+  border: 1px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 2em;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: white;
+  color: #4caf50;
+  border-color: #4caf50;
+}
+@font-face {
+  font-family: RickandMorty;
+  src: url("./fonts/get_schwifty.ttf");
+}
